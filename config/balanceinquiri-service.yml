@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/balanceinquiridb
+      database: balanceinquiridb
+  application:
+    name: balanceinquiri-service
+
+server:
+  port: 8083
+
+logging:
+  level:
+    org.springframework.data.mongodb.core: DEBUG
+    com.example.msbalanceinquiriservice: DEBUG

@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/transacciondb
+      database: transacciondb
+  application:
+    name: transaccion-service
+
+server:
+  port: 8085
+
+logging:
+  level:
+    org.springframework.data.mongodb.core: DEBUG
+    com.example.mstransaccionservice: DEBUG
