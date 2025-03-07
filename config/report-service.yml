@@ -1,13 +1,14 @@
 server:
-  port: 8082
+  port: 8086
 
 spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/bankapp
   application:
-    name: account-service
+    name: report-service
 
 logging:
   level:
-    com.example.msaccountservice: DEBUG
+    com.example.mscreditservice: DEBUG
+

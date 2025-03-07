@@ -1,13 +1,13 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/transacciondb
+      uri: mongodb://localhost:27017/bankapp
       database: transacciondb
   application:
     name: transaccion-service
 
 server:
-  port: 8085
+  port: 8083
 
 logging:
   level:

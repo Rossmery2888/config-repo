@@ -1,13 +1,13 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/customerdb
+      uri: mongodb://localhost:27017/bankapp
       database: customerdb
   application:
     name: customer-service
 
 server:
-  port: 8082
+  port: 8081
 
 logging:
   level:

@@ -1,13 +1,13 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/creditcarddb
+      uri: mongodb://localhost:27017/bankapp
       database: creditcarddb
   application:
     name: creditcard-service
 
 server:
-  port: 8086
+  port: 8085
 
 logging:
   level:

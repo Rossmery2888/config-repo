@@ -4,7 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/creditdb
+      uri: mongodb://localhost:27017/bankapp
   application:
     name: credit-service
 
